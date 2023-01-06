@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.header-items {
+    font-family: 'Inter';
+    font-style: normal;
+    width: 1440px;
+    height: 509px;
+    background-image: url("../donate-today-main/images/donation7.jpg"), linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+    background-blend-mode: overlay;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    margin-top: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 30px;
+
+}
+
+.button {
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 16px 12px;
+    width: 160px;
+    height: 56px;
+    background-color: #FF5959;
+    margin: auto;
+    border: none;
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    padding-top: ;
+}
+
+.header-title2 {
+    margin-top: 130px;
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.description2 {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    /* or 156% */
+    margin-top: 20px;
+    color: #707070;
+}
+
+.buttons:hover{
+    background-color: #3e8e41
+
+}
+.buttons:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+
+}
+.buttons {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
